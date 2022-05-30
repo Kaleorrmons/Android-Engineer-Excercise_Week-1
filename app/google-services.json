@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925971499022",
+    "project_id": "auth-fa6c0",
+    "storage_bucket": "auth-fa6c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925971499022:android:c7e45209dfa423faa2945f",
+        "android_client_info": {
+          "package_name": "com.example.androidengineerexcercise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925971499022-dddtfbdf324bsb9po5irsas16lqrq9ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHKAWbIfcqfQPXS-WcuUuy00sBiNyn4Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925971499022-dddtfbdf324bsb9po5irsas16lqrq9ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
