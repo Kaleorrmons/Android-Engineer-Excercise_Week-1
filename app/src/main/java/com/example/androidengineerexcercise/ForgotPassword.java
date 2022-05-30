@@ -1,5 +1,6 @@
 package com.example.androidengineerexcercise;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -31,6 +33,13 @@ public class ForgotPassword extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
 
         resetPasswordButton.setOnClickListener(v -> resetPassword());
+
+        ConstraintLayout constraintLayout = findViewById(R.id.mainLayout);
+
+        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(2500);
+        animationDrawable.setExitFadeDuration(5000);
+        animationDrawable.start();
     }
 
     private void resetPassword(){
