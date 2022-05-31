@@ -17,10 +17,6 @@
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
-            android:name=".ui.login.ForgotPassword"
-            android:exported="false"
-            android:label="@string/title_activity_forgot_password" />
-        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
