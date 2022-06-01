@@ -50,6 +50,6 @@ Also provides a button to register the user once all of the above fields are pro
 
 When the user clicks the button to forgot password, that button will bring them to this page. The user will then be asked to provide their email, with a button that will send out an email to reset their password. 
 
-# Overview- Welcome!
+# Overview- Welcome
 
 This is the page the user is able to reach after completing the registration/login processes. Has the simple text "Welcome!" and a logout button. 
